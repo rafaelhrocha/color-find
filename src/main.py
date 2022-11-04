@@ -4,9 +4,6 @@ import webcolors as wc
 class Colors():
     def __init__(self) -> None:
         self.colors = []
-        
-    def getImage():
-        pass
 
     def getColors(self, imagem):
         self.colors = cg.extract(imagem, 4)
